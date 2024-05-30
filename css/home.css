@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte1';
+    src: url(../fonte/TAN-Pearl-Font/tan-pearl.otf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +21,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 180px;
-    z-index: 10;
 }
 
 .nav{
@@ -47,11 +53,28 @@ header{
     margin-left: 5px;
 }
 
-.logo{
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-    font-weight: 800;
-    font-family: ;
+/* CAIXA FUNDO */
+
+
+.box_profile p{
+    font-size: 90px;
+    z-index: 10;
+    margin-top: -160px;
+}
+
+.box_profile{
+    width: 400px;
+    background-color: #545C5F;
+    height: 480px;
+    margin-left: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_profile img{
+    margin-top: 180px;
+    width: 270px;
+    height: 300px;
+
 }
