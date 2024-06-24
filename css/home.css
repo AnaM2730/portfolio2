@@ -58,23 +58,36 @@ header{
 
 .box_profile p{
     font-size: 90px;
-    z-index: 10;
-    margin-top: -160px;
+    margin-top: 160px;  
 }
 
-.box_profile{
-    width: 400px;
-    background-color: #545C5F;
-    height: 480px;
-    margin-left: 210px;
+p.text1{
+    margin-left: 2.5em;
+    color: white;
+}
+
+p.text2 {
+    color: #fafafa;
+    display: block;
+    margin-bottom: -290px;
+    margin-left: 5.3em;
+}
+p.text3{
+    color: #fafafa;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 3.2em;
+    margin-left: 5.3em;
 }
 
-.box_profile img{
-    margin-top: 180px;
-    width: 270px;
-    height: 300px;
+p.text4{
+    color: #fafafa;
+    display: flex;
+    margin-top: -3.5em;
+    margin-left: 5.3em;
+}
 
+.img_profile{
+    margin-top: -175px;
+    height: 400px;
+    margin-left: 200px;
 }
